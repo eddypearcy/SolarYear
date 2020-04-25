@@ -11,6 +11,10 @@ The dataset is a CSV file called 'daily_production.csv'. It contains 1584 entrie
 1. The first column is the date (YYYY-MM-DD) of the measurement;
 2. The second one is the production of the installation on that day, in watt-hours (Wh).
 
+## Result
+Here is the figure that the program generates. It shows the original data as well as the fitted sinewave.
+![Image could not be found](./fit_data_comparison.png "Comparing the data and the fit")
+
 ## Comments
 The production data is very noisy because of the varying weather. Also, a sinewave is something that seems notoriously
 difficult to fit when compared to other curves. For those reasons, the optimizer needs an initial guess. When using 300
